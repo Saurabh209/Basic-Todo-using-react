@@ -41,7 +41,7 @@ function App() {
                 <li>{taskList.name}</li>
                 
                 <button class="deleteButton" onClick={()=>{
-                  setTaskList( taskList.filter(tasks=>tasks.id!=taskId))
+                  setTaskList( taskList.filter(tasks=>tasks.id!=taskList.id))
                  
                 }}>
                   <span>Clear!</span>
